@@ -45,3 +45,5 @@ setupSocket(server);
 mongoose.connect(databaseURL)
 .then(()=> console.log("DB connection sucessfull"))
 .catch((err) => console.log(err.message))
+
+export default app;
